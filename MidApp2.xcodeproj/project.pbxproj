@@ -14,6 +14,7 @@
 		4E951D6E255CCDAE005157D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E951D6C255CCDAE005157D9 /* LaunchScreen.storyboard */; };
 		4E951D76255CCE88005157D9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E951D75255CCE88005157D9 /* TableViewController.swift */; };
 		4E951D78255CD217005157D9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E951D77255CD217005157D9 /* TableViewCell.swift */; };
+		4E951D7E255CEACD005157D9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E951D7D255CEACD005157D9 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4E951D6F255CCDAE005157D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E951D75255CCE88005157D9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		4E951D77255CD217005157D9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		4E951D7D255CEACD005157D9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				4E951D6F255CCDAE005157D9 /* Info.plist */,
 				4E951D75255CCE88005157D9 /* TableViewController.swift */,
 				4E951D77255CD217005157D9 /* TableViewCell.swift */,
+				4E951D7D255CEACD005157D9 /* DetailViewController.swift */,
 			);
 			path = MidApp2;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				4E951D62255CCDAE005157D9 /* AppDelegate.swift in Sources */,
 				4E951D78255CD217005157D9 /* TableViewCell.swift in Sources */,
+				4E951D7E255CEACD005157D9 /* DetailViewController.swift in Sources */,
 				4E951D76255CCE88005157D9 /* TableViewController.swift in Sources */,
 				4E951D64255CCDAE005157D9 /* SceneDelegate.swift in Sources */,
 			);

@@ -13,7 +13,7 @@ class TableViewController: UITableViewController {
     var sportNames = ["Baseball","Basketball","Football","Other"]
     var sportImages = ["baseball","basketball","football","other"]
     var sportIsChecked = Array(repeating: false, count: 21)
-    
+    var sportImages2 = ["baseball_photo","basketball_photo","football_photo","other_photo"]
     
     @IBOutlet var myLabel: UILabel!
     
@@ -29,6 +29,7 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+         navigationController?.navigationBar.prefersLargeTitles = true
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
@@ -153,5 +154,13 @@ class TableViewController: UITableViewController {
      // Pass the selected object to the new view controller.
      }
      */
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDetail" {
+            if let indexPath = tableView.indexPathForSelectedRow {
+                let destinationController = segue.destination as! DetailViewController
+                destinationController.sportImageName = sportImages2[indexPath.row]
+            }
+        }
+    }
+
 }
