@@ -26,6 +26,7 @@ class TableViewController: UITableViewController {
         return ans
     }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -80,6 +81,7 @@ class TableViewController: UITableViewController {
             //set the accessoryType of the selected cell to be checked
             cell.accessoryType = .checkmark
             self.sportIsChecked[indexPath.row] = true
+            
             //call a function: self. finalSelection()
             let ans = self.selected(checkedOrNot: self.sportIsChecked[indexPath.row], name: self.sportNames[indexPath.row])
             self.myLabel.text = "My favorite sport is " + ans
