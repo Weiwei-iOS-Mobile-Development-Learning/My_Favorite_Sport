@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		4E951D62255CCDAE005157D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E951D61255CCDAE005157D9 /* AppDelegate.swift */; };
 		4E951D64255CCDAE005157D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E951D63255CCDAE005157D9 /* SceneDelegate.swift */; };
-		4E951D66255CCDAE005157D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E951D65255CCDAE005157D9 /* ViewController.swift */; };
 		4E951D69255CCDAE005157D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E951D67255CCDAE005157D9 /* Main.storyboard */; };
 		4E951D6B255CCDAE005157D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E951D6A255CCDAE005157D9 /* Assets.xcassets */; };
 		4E951D6E255CCDAE005157D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E951D6C255CCDAE005157D9 /* LaunchScreen.storyboard */; };
+		4E951D76255CCE88005157D9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E951D75255CCE88005157D9 /* TableViewController.swift */; };
+		4E951D78255CD217005157D9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E951D77255CD217005157D9 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4E951D5E255CCDAE005157D9 /* MidApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E951D61255CCDAE005157D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E951D63255CCDAE005157D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E951D65255CCDAE005157D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4E951D68255CCDAE005157D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E951D6A255CCDAE005157D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E951D6D255CCDAE005157D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E951D6F255CCDAE005157D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E951D75255CCE88005157D9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4E951D77255CD217005157D9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				4E951D61255CCDAE005157D9 /* AppDelegate.swift */,
 				4E951D63255CCDAE005157D9 /* SceneDelegate.swift */,
-				4E951D65255CCDAE005157D9 /* ViewController.swift */,
 				4E951D67255CCDAE005157D9 /* Main.storyboard */,
 				4E951D6A255CCDAE005157D9 /* Assets.xcassets */,
 				4E951D6C255CCDAE005157D9 /* LaunchScreen.storyboard */,
 				4E951D6F255CCDAE005157D9 /* Info.plist */,
+				4E951D75255CCE88005157D9 /* TableViewController.swift */,
+				4E951D77255CD217005157D9 /* TableViewCell.swift */,
 			);
 			path = MidApp2;
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E951D66255CCDAE005157D9 /* ViewController.swift in Sources */,
 				4E951D62255CCDAE005157D9 /* AppDelegate.swift in Sources */,
+				4E951D78255CD217005157D9 /* TableViewCell.swift in Sources */,
+				4E951D76255CCE88005157D9 /* TableViewController.swift in Sources */,
 				4E951D64255CCDAE005157D9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
